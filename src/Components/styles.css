@@ -1,0 +1,48 @@
+.frame {
+  background-color: white;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0%;
+  border-radius: 20px;
+}
+
+.circle {   
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid yellow;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  line-height: 45px;
+  justify-content: center;
+  display: flex;
+}
+
+.circle:hover + iframe{
+    animation: 1s chatBot linear forwards;
+}
+
+iframe:hover{
+    width: 400px;
+    height: 600px;
+    animation: 1s chatBot linear forwards;
+}
+
+@keyframes chatBot {
+    0%{
+        opacity: 10%;
+    }
+    50%{
+        opacity: 70%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
