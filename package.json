@@ -26,7 +26,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://vendredl.github.io/bootcamp20",
+  "homepage": "https://do-coding-duo.netlify.com",
   "browserslist": {
     "production": [
       ">0.2%",
