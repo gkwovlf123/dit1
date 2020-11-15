@@ -160,7 +160,7 @@ const DetailPresenter = ({ result, collection, loading, error }) =>
   loading ? (
     <>
       <Helmet>
-        <title>Loading | Nomflix</title>
+        <title>Loading | Ditflix</title>
       </Helmet>
       <Loader />
     </>
