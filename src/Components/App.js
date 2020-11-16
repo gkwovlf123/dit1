@@ -6,7 +6,10 @@ import "./styles.css";
 import styled from "styled-components";
 
 const Btn = styled.button`
-  
+  z-index: 5;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 `
 
 function App() {
