@@ -10,8 +10,11 @@ function App() {
       <Router />
       <GlobalStyles />
       <iframe class="frame" src="https://github.com/VENDREDl/dit1/blob/main/src/Components/App.js" title="myFrame"/>
-      <button>Chat</button>
-    
+      <button class="button">Chat</button>
+      
+      document.querySelector('.button').addEventListener('click, () => {
+                                                         document.iframe.style.opacity = "100%";
+                                                         });
     </>
   );
 }
