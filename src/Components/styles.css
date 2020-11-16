@@ -10,7 +10,7 @@
   border-radius: 20px;
 }
 
-button{
+.box{
   position: fixed;
   right: 30px;
   bottom: 30px;
@@ -24,7 +24,7 @@ button{
   border: 1px solid yellow;
 }
 
-button:hover + iframe{
+.box:hover + iframe{
     animation: 1s chatBot linear forwards;
 }
 
