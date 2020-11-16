@@ -17,6 +17,7 @@ const Btn = styled.button`
   display: flex;
   justify-content: center;
   text-align: center;
+  line-height: 20px;
 `
 
 function App() {
