@@ -14,7 +14,6 @@ const Btn = styled.button`
   height: 40px;
   background-color: #ffffff;
   border-radius: 100px;
-  color: yellow;
 `
 
 function App() {
