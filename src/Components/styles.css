@@ -24,7 +24,7 @@ button{
   border: 1px solid yellow;
 }
 
-button:visited + iframe{
+button:active + iframe{
     animation: 1s chatBot linear forwards;
 }
 
