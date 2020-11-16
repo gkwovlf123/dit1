@@ -12,7 +12,6 @@ const Btn = styled.button`
   bottom: 10px;
   width: 20px;
   height: 20px;
-  border-radius: 20px;
   background-color: #ffffff;
   color: yellow;
 `
