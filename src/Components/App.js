@@ -14,6 +14,9 @@ const Btn = styled.button`
   height: 40px;
   background-color: #ffffff;
   border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 `
 
 function App() {
