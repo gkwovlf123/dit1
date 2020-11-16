@@ -3,6 +3,11 @@ import Router from "Components/Router";
 import GlobalStyles from "Components/GlobalStyles";
 import "./Fonts.css";
 import "./styles.css";
+import styled from "styled-components";
+
+const Btn = styled.button`
+  
+`
 
 function App() {
   return (
@@ -10,8 +15,8 @@ function App() {
       <Router />
       <GlobalStyles />
       <iframe class="frame" src="http://localhost:3000/" title="myFrame"/>
-      <div class="circle">Chat</div>
-
+      <Btn>Chat</Btn>
+    
     </>
   );
 }
