@@ -8,11 +8,12 @@ import styled from "styled-components";
 const Btn = styled.button`
   z-index: 5;
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 20px;
-  height: 20px;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
   background-color: #ffffff;
+  border-radius: 100px;
   color: yellow;
 `
 
