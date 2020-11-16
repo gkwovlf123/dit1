@@ -3,7 +3,6 @@ import Router from "Components/Router";
 import GlobalStyles from "Components/GlobalStyles";
 import "./Fonts.css";
 import "./styles.css";
-import "./ma.js"
 
 function App() {
   return (
