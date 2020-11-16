@@ -16,7 +16,6 @@ const Btn = styled.button`
   border-radius: 100px;
   display: flex;
   justify-content: center;
-  text-align: center;
   line-height: 20px;
 `
 
