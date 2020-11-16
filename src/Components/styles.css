@@ -10,6 +10,20 @@
   border-radius: 20px;
 }
 
+button{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  line-height: 35px;
+  border: 1px solid yellow;
+}
+
 button:visited + iframe{
     animation: 1s chatBot linear forwards;
 }
