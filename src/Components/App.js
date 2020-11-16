@@ -10,6 +10,11 @@ const Btn = styled.button`
   position: fixed;
   right: 10px;
   bottom: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: yellow;
 `
 
 function App() {
