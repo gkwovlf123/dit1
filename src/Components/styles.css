@@ -10,21 +10,7 @@
   border-radius: 20px;
 }
 
-.circle {   
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  border: 1px solid yellow;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 1;
-  line-height: 45px;
-  justify-content: center;
-  display: flex;
-}
-
-.circle:visited + iframe{
+button:visited + iframe{
     animation: 1s chatBot linear forwards;
 }
 
