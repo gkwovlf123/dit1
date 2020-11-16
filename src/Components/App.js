@@ -21,7 +21,7 @@ function App() {
     <>
       <Router />
       <GlobalStyles />
-      <iframe class="frame" src="http://localhost:3000/" title="myFrame"/>
+      <iframe class="frame" src="https://github.com/VENDREDl/dit1/blob/main/src/Components/App.js" title="myFrame"/>
       <Btn>Chat</Btn>
     
     </>
