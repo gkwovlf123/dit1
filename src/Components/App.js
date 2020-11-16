@@ -10,7 +10,7 @@ function App() {
       <Router />
       <GlobalStyles />
       <iframe class="frame" src="https://github.com/VENDREDl/dit1/blob/main/src/Components/App.js" title="myFrame"/>
-      <div class="box"></div>
+      <div class="box">Chat</div>
       
     </>
   );
