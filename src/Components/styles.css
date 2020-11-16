@@ -24,4 +24,18 @@
   display: flex;
 }
 
+.circle:visited + iframe{
+    animation: 1s chatBot linear forwards;
+}
 
+@keyframes chatBot {
+    0%{
+        opacity: 10%;
+    }
+    50%{
+        opacity: 70%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
