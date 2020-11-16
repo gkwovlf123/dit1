@@ -16,7 +16,7 @@ const Btn = styled.button`
   border-radius: 100px;
   display: flex;
   justify-content: center;
-  line-height: 50px;
+  line-height: 35px;
 `
 
 function App() {
